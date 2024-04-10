@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>MBAT</title>
+	<style>
+		body {
+			background-color: #222;
+			color: #ddd;
+			font-family: Arial, sans-serif;
+		}
+		.navbar {
+			background-color: #333;
+			padding: 10px;
+			overflow: hidden;
+		}
+		.navbar a {
+			color: #ccc;
+			text-decoration: none;
+			padding: 5px;
+			font-size: 18px;
+			float: left;
+		}
+		.navbar a:hover {
+			background-color: #444;
+		}
+		.header {
+			text-align: center;
+			padding: 50px 0;
+			font-size: 50px;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.card {
+			background-color: #444;
+			color: #ddd;
+			padding: 20px;
+			margin: 10px;
+			flex: 1;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+			box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+		}
+		.card h2 {
+			margin: 10px 0;
+		}
+		.card p {
+			margin: 10px 0;
+		}
+		.footer {
+			background-color: #333;
+			padding: 10px;
+			text-align: center;
+			color: #ddd;
+			font-size: 14px;
+			margin-top: 50px;
+		}
+		.neon-text {
+			background-image: linear-gradient(to right, #ff0, #fff, #ff0);
+			background-size: 100% 2px;
+			background-position: 0 100%;
+			background-repeat: no-repeat;
+			background-clip: text;
+			-webkit-background-clip: text;
+			color: transparent;
+			text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+			animation: neon 2s ease-in-out infinite;
+		}
+		@keyframes neon {
+			0% {
+				background-position: 0 100%;
+			}
+			50% {
+				background-position: 100% 100%;
+			}
+			100% {
+				background-position: 0 100%;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="navbar">
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Projects</a>
+		<a href="#">Courses</a>
+		<a href="#">Members</a>
+		<a href="#">Login</a>
+	</div>
+	<div class="header">
+		<span class="neon-text">Mbat</span>
+	</div>
+	<div class="card">
+		<h2>Card 1</h2>
+		<p>Lorem ipsum dolor sit</p>
+        </div>
+        <div class="card">
+            <h2>Card 1</h2>
+            <p>Lorem ipsum dolor sit</p>
+            </div>
+        </body>
