@@ -21,11 +21,36 @@ body{
     border-radius: 12px;
     border: 2px solid rgba(255,255,255,.2);
     backdrop-filter: blur(20px);
+    transition: 500ms;
+    
 }
+
+.wrapped:hover{
+    width: 445px;
+    background: transparent;
+    color: white;
+    padding:30px 40px ;
+    border-radius: 12px;
+    border-top-left-radius: 50px;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(30px);
+    transition: 500ms;
+   
+    
+}
+
+
+
 h1{
     font-size: 36px;
     text-align: center;
+    transition: 500ms;
 }
+.wrapped:hover h1{
+    font-size: 46px;
+    text-align: center;
+}
+
 .input-box{
     width: 100%;
     height: 50px;
