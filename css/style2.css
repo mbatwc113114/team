@@ -10,7 +10,7 @@ body{
     align-items: center;
     min-height: 100vh;
     /* background-color: seagreen; */
-    background-image: url(./Registration.jpg);
+    background-image: url(/assets/Registration.jpg);
 }
 .wrapped{
     width: 420px;
